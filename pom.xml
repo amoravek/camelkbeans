@@ -12,6 +12,12 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
@@ -27,7 +33,7 @@
 		<dependency>
 			<groupId>com.github.amoravek</groupId>
 			<artifactId>camelkbeans</artifactId>
-			<version>main</version>
+			<version>master-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
